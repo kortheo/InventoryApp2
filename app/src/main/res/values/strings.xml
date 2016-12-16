@@ -1,0 +1,56 @@
+<resources>
+
+    //app and activity names
+    <string name="app_name">InventoryApp</string>
+    <string name="add_product_label">Add Product</string>
+    <string name="edit_product_label">Edit Product</string>
+    <string name="empty_list_view">Get started by adding a product to the inventory!</string>
+
+
+
+    //strings for the add product activity
+    <string name="add_product_name">Name</string>
+    <string name="add_product_name_hint">Enter product name</string>
+    <string name="add_product_quantity">Quantity</string>
+    <string name="add_product_quantity_hint">Enter quantity</string>
+    <string name="add_product_price">Price</string>
+    <string name="add_product_price_hint">Enter price</string>
+    <string name="add_product_supplier">Supplier Email</string>
+    <string name="add_product_supplier_hint">Enter supplier email</string>
+    <string name="add_product_picture">Picture</string>
+    <string name="take_picture_button">Take Picture</string>
+
+    //strings for delete dialog
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    //strings for the edit product activity
+    <string name="edit_product_receive">+1</string>
+    <string name="edit_product_sale">-1</string>
+    <string name="edit_product_order">Order</string>
+    <string name="edit_product_delete">Delete</string>
+    <string name ="order_email_subject">Order additional product</string>
+    <string name="order_email_body">Hello, \n\n I would like to order additional: </string>
+
+    //list item views
+    <string name="list_item_price">Price</string>
+    <string name="list_item_quantity">Quantity</string>
+    <string name="list_item_sale">Sold 1</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    //Toast strings
+    <string name="update_product_toast_success">Product updated successfully.</string>
+    <string name="update_product_toast_error">Error updating product.</string>
+    <string name="delete_product_toast_success">Product deleted successfully.</string>
+    <string name="delete_product_toast_error">Error deleting product.</string>
+    <string name="decrement_error">Cannot reduce quantity below 0.</string>
+    <string name="add_product_toast_warning">Please enter values for all fields before saving new entry.</string>
+    <string name="edit_product_toast_warning">All fields require data before updating.</string>
+
+</resources>
